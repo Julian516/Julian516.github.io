@@ -1,0 +1,64 @@
+baseURL = "https://example.com/"
+title = "JBarone"
+languageCode = "en"
+defaultContentLanguage = "en"
+theme = "hugo-coder"
+enableRobotsTXT = true
+katex = true
+
+[params]
+  author = "Julian Barone"
+  description = "Personal Website"
+  keywords = ["blog", "dev", "hugo", "coder"]
+  avatarURL = "images/avatar.jpg"
+  info = "Student"
+  dateFormat = "02 Jan 2006"
+  since = 2025
+  enableTwemoji = true
+  colorScheme = "auto"  # dark, light ou auto
+  hideColorSchemeToggle = false
+  katex = true
+
+# Menu principal
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url  = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "/about/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 3
+  url = "/posts/"
+
+[[menu.main]]
+  name = "Contact"
+  weight = 4
+  url = "/contact/"
+
+# Réseaux sociaux
+[[params.social]]
+  name = "GitHub"
+  icon = "fa fa-github"
+  weight = 1
+  url = "https://github.com/Julian516"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin"
+  weight = 2
+  url = "https://linkedin.com/in/julianBarone"
+
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope"
+  weight = 3
+  url = "mailto:contact@jbarone.dev"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
