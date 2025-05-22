@@ -11,7 +11,7 @@ enableRobotsTXT = true
   description = "Personal Website"
   keywords = ["blog", "dev", "hugo", "coder"]
   #avatarURL = "images/avatar.jpg"
-  info = "Student"
+  info = "Cybersecurity & AI Engineering student"
   dateFormat = "02 Jan 2006"
   since = 2025
   enableTwemoji = true
@@ -36,10 +36,10 @@ enableRobotsTXT = true
   weight = 3
   url = "/posts/whoami.md"
 
-[[menu.main]]
-  name = "Contact"
-  weight = 4
-  url = "/contact/"
+#[[menu.main]]
+#  name = "Contact"
+#  weight = 4
+#  url = "/contact/"
 
 # Réseaux sociaux
 [[params.social]]
