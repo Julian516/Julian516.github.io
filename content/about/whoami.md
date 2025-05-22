@@ -17,7 +17,7 @@ Seeking a position in quantitative research or cybersecurity, combining mathemat
 
 ## 🧠 Key Skills
 
-- **Languages**: Python, C++, Bash, HTML/CSS, JavaScript  
+- **Languages**: Python, C++, Bash, Java, C
 - **AI / Data**: Numpy, Pandas, Scikit-learn, PyTorch  
 - **DevOps**: Docker, Git, CI/CD (GitHub Actions)  
 - **Cybersecurity**: Linux, Networking, Cryptography, Kali  
