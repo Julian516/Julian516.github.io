@@ -21,6 +21,7 @@ enableRobotsTXT = true
   math = true
 
 # Menu principal
+# No need .md
 [[menu.main]]
   name = "Home"
   weight = 1
@@ -29,7 +30,7 @@ enableRobotsTXT = true
 [[menu.main]]
   name = "About"
   weight = 2
-  url = "/about/whoami.md"
+  url = "/about/whoami"
 
 [[menu.main]]
   name = "Blog"

@@ -45,7 +45,7 @@ _Major: AI, Cybersecurity_
 
 ## 📎 Download My Resume
 
-👉 [**Download CV (PDF)**](/cv-john-doe.pdf)
+👉 [**Download CV (PDF)**](/julian_Resume.pdf)
 
 ---
 
