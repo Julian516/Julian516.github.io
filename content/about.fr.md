@@ -18,22 +18,26 @@ links:
 
 ## Salut, moi c’est Julian
 
-Je suis un étudiant ingénieur français focalisé sur l’automatisation d’infrastructure, l’observabilité et les petits détails qui rendent un produit numérique agréable. J’aime piloter un projet de bout en bout : maquette UX, backend, CI, monitoring.
+Je suis étudiant ingénieur en informatique.
+Je travaille surtout sur des projets techniques autour de l’infrastructure, de la cybersécurité, de l’automatisation, du monitoring et de l’IA/ML appliquée.
 
-Ces dernières années j’ai alterné missions freelance, projets personnels et contributions communautaires. Résultat : je sais livrer vite sans sacrifier la fiabilité.
+Ce site regroupe mes projets personnels et académiques, avec une approche simple : montrer le travail réel, les choix techniques, les itérations, et les résultats.
 
 ## En ce moment
 
-- Une stack d’observabilité auto-hébergée en Go pensée pour les home-labs.
-- Des dashboards légers pour suivre les projets étudiants, avec Supabase et Remix.
-- Des starters Hugo/Tailwind pour lancer des landing pages soignées en une après-midi.
+- Homelab (Proxmox, VMs, services auto-hébergés, supervision)
+- Projets d’automatisation et de tooling (scripts, pipelines, intégration de services)
+- Projets orientés cybersécurité / infra (hardening, architecture, observabilité)
+- Expérimentations autour de l’IA/ML appliquée à des cas concrets
 
-## Outils favoris
+## Outils & Technos (selon les projets)
 
-- Langages & frameworks : Go, Rust, TypeScript, Hugo, Remix.
-- Infrastructure : Docker, Podman, Ansible, Fly.io, Vercel, GitHub Actions.
-- Monitoring : OpenTelemetry, Grafana, ClickHouse, Prometheus, InfluxDB.
+- Langages : Python, C/C++, Bash, JavaScript
+- Infra & systèmes : Linux, Docker, Proxmox, Git, Caddy
+- Data / ML : pandas, numpy, scikit-learn, notebooks
+- Monitoring / observabilité : Grafana, Prometheus, InfluxDB
+- Web (quand nécessaire) : HTML/CSS/JS, React (projets ciblés)
 
-## Hors clavier
+## Hors projets
 
-Je mentor des étudiants débutant en backend, j’écris des journaux de build pour chaque projet (réussi ou non) et je joue beaucoup trop aux échecs quand je devrais dormir.
+J’utilise ce site comme portfolio technique et base de documentation : notes de projet, journaux de build, décisions d’architecture, erreurs, correctifs et avancement.

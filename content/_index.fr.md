@@ -3,8 +3,8 @@ title: "Julian Barone"
 description: "Portfolio, articles et expériences"
 ---
 
-Je suis un étudiant ingénieur français spécialisé dans l’automatisation d’infrastructure, l’observabilité et les itérations produit rapides. Ce portfolio centralise les informations dont un recruteur a besoin : expériences, notes techniques et moyens de contact.
+Je suis étudiant ingénieur en informatique, avec un intérêt marqué pour l’infrastructure, la cybersécurité, l’automatisation et l’observabilité. Ce portfolio regroupe mes projets, mes notes techniques et les informations utiles pour me contacter.
 
-- Des journaux de build et articles expliquant comment je résous des problèmes d’infra ou de produit.
-- Les projets en cours avec les liens vers le code livré.
-- Toutes les informations pratiques (contact et CV) sans avoir à chercher ailleurs.
+- Des journaux de build et articles techniques sur mes projets (infrastructure, automatisation, monitoring, sécurité, etc.)
+- Les projets en cours et terminés, avec liens vers le code ou la documentation quand ils sont disponibles
+- Les informations pratiques (CV, contact, liens) réunies au même endroit

@@ -32,8 +32,8 @@ weight = 2
 
 [languages.en.params.author]
 name = "Julian Barone"
-title = "Engineering student building reliable tools"
-description = "I design and ship infrastructure automation, observability tooling, and fast product prototypes while documenting the process so teams can reuse my work."
+title = "Engineering student. I build stuff."
+description = "Homelab, infra, cyber, automation, monitoring, and some ML. This site is my projects, notes, tests, mistakes, and fixes."
 avatar = "/images/avatar.svg"
 
   [[languages.en.params.author.social]]
@@ -53,8 +53,8 @@ avatar = "/images/avatar.svg"
 
 [languages.fr.params.author]
 name = "Julian Barone"
-title = "Étudiant ingénieur — outils fiables"
-description = "Je conçois de l'automatisation d'infrastructure, des outils d'observabilité et des prototypes produits rapides tout en documentant chaque étape pour faciliter l'adoption."
+title = "Étudiant ingénieur. Je construit des trucs."
+description = "Homelab, infra, cyber, automatisation, monitoring, un peu de ML. Ce site, c’est mes projets, mes notes, mes tests, mes erreurs et mes correctifs."
 avatar = "/images/avatar.svg"
 
   [[languages.fr.params.author.social]]
@@ -163,8 +163,8 @@ weight = 40
   icon = "email"
 
 [params]
-description = "Portfolio and project log for Julian Barone: engineering student focusing on infrastructure automation, full-stack experiments, and reliable tooling."
-keywords = [ "Julian Barone", "Portfolio", "Full-stack engineer", "Projects", "Blog" ]
+description = "Portfolio and project log for Julian Barone: engineering student focusing on infrastructure automation, homelab, and tools."
+keywords = [ "Julian Barone", "Portfolio", "computer science", "Projects", "Blog" ]
 defaultAuthor = "Julian Barone"
 language = "en-US"
 shortName = "Julian Barone"
@@ -185,14 +185,14 @@ colorScheme = "default"
   svg = "/favicon.svg"
 
   [params.hero]
-  tagline = "Engineering student · Infra & product builder"
-  summary = "Focused on infrastructure automation, observability, and polished user experiences."
+  tagline = "Engineering student"
+  summary = ""
   primaryCta = { label = "View my projects", url = "#projects" }
   secondaryCta = { label = "Read the journal", url = "/posts/" }
   currentFocus = "Rewriting my personal observability stack in Go"
   #location = "Lyon, France"
-  education = "Engineering student (M1)"
-  objective = "Looking for a 2025 internship in infrastructure"
+  education = "Engineering student (ESIEA 4Y)"
+  objective = "Looking for a 2026 internship in cybersecurity"
 
 [params.cv]
 title = "Curriculum Vitae"

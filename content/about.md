@@ -18,22 +18,25 @@ links:
 
 ## Hi, I'm Julian
 
-I'm a French engineering student focusing on infrastructure automation, observability, and the little details that make digital products feel polished. I enjoy owning projects end-to-end: sketching UX, shipping the backend, wiring up CI, and making sure everything is observable with modern tooling.
+I’m a computer engineering student.
+I mostly work on technical projects related to infrastructure, cybersecurity, automation, monitoring, and applied AI/ML.
 
-Over the past few years I've mixed freelance contracts, personal research projects, and community contributions. Those experiences taught me how to move quickly without sacrificing reliability.
-
+This site gathers my personal and academic projects with a simple approach: show the real work, technical decisions, iterations, and results.
 ## What I'm working on
 
-- A self-hosted observability stack written in Go with first-class support for home-lab deployments.
-- Lightweight dashboards for tracking student projects, powered by Supabase and Remix.
-- A collection of Hugo/Tailwind starters that help friends launch polished landing pages in an afternoon.
+- Homelab (Proxmox, VMs, self-hosted services, monitoring)
+- Automation and tooling projects (scripts, pipelines, service integration)
+- Cybersecurity / infrastructure-oriented projects (hardening, architecture, observability)
+- Applied AI/ML experiments for practical use cases
 
 ## Tooling I enjoy
 
-- Languages and frameworks: Go, Rust, TypeScript, Hugo, Remix.
-- Infrastructure: Docker, Podman, Ansible, Fly.io, Vercel, GitHub Actions.
-- Monitoring: OpenTelemetry, Grafana, ClickHouse, Prometheus, InfluxDB.
+- Languages: Python, C/C++, Bash, JavaScript
+- Infra & systems: Linux, Docker, Proxmox, Git, Caddy
+- Data / ML: pandas, numpy, scikit-learn, notebooks
+- Monitoring / observability: Grafana, Prometheus, InfluxDB
+- Web (when needed): HTML/CSS/JS, React (targeted projects)
 
-## Outside of work
+## Outside project work
 
-I mentor students who are new to backend development, write build logs for every project (good or bad), and play far too much chess when I should be sleeping.
+I use this site as a technical portfolio and documentation base: project notes, build logs, architecture decisions, mistakes, fixes, and progress.

@@ -3,8 +3,8 @@ title: "Julian Barone"
 description: "Portfolio, posts, and experiments"
 ---
 
-I'm a French engineering student focused on infrastructure automation, observability, and fast product iterations. This portfolio is the single place to review my experience, read technical notes, and access links recruiters usually ask for.
+I’m a computer engineering student with a strong interest in infrastructure, cybersecurity, automation, and observability. This portfolio brings together my projects, technical notes, and the key information needed to contact me.
 
-- Build logs and articles documenting how I solve infrastructure and product problems.
-- Summaries of current projects plus links to production code.
-- Contact details and my CV so you can reach out without digging.
+- Build logs and technical articles about my projects (infrastructure, automation, monitoring, security, etc.)
+- Ongoing and completed projects, with links to code or documentation when available
+- Practical information (CV, contact, links) in one place
