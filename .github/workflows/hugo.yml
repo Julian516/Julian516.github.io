@@ -31,7 +31,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.152.2
+      # Keep this in sync with [module.hugoVersion].min in hugo.toml.
+      HUGO_VERSION: 0.154.2
     steps:
       - name: Install Hugo CLI
         run: |
