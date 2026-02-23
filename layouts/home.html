@@ -1,9 +1,33 @@
 {{ define "main" }}
   <div class="mx-auto max-w-4xl">
-    {{ if .Content }}
+    {{ $hasContent := gt (len (.Content | plainify | strings.TrimSpace)) 0 }}
+    {{ if $hasContent }}
       <section class="page-content">
         <div class="prose max-w-none">
           {{ .Content }}
+        </div>
+      </section>
+    {{ else }}
+      <section class="space-y-4">
+        <h1 class="text-3xl font-bold text-foreground">
+          {{ .Title | default site.Title }}
+        </h1>
+        {{ with site.Params.hero.summary }}
+          <p class="text-muted-foreground">
+            {{ . }}
+          </p>
+        {{ end }}
+        <div class="flex flex-wrap gap-3">
+          <a
+            href="{{ "/posts/" | relLangURL }}"
+            class="bg-primary text-primary-foreground inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold">
+            {{ i18n "home.view_all_posts" | default "View posts" }}
+          </a>
+          <a
+            href="{{ "/about/" | relLangURL }}"
+            class="border border-border text-primary inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold">
+            {{ i18n "about.title" | default "About" }}
+          </a>
         </div>
       </section>
     {{ end }}
