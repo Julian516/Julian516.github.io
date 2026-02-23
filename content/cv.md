@@ -3,4 +3,6 @@ title = "Curriculum Vitae"
 type = "cv"
 +++
 
-Feel free to preview or download my current résumé below. Upload the latest PDF to `static/cv.pdf` (or update `params.cv.file`) and this page will update automatically.
+This page provides a direct view of my current resume.
+
+If the PDF preview is unavailable, use the contact link in the footer and I will share the latest version directly.

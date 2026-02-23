@@ -100,7 +100,7 @@ weight = 30
 
 [[menus.main]]
 name = "CV"
-url = "/cv.pdf"
+url = "/cv/"
 weight = 40
 
   [menus.main.params]
@@ -192,7 +192,7 @@ colorScheme = "default"
   currentFocus = "Rewriting my personal observability stack in Go"
   #location = "Lyon, France"
   education = "Engineering student (M1)"
-  objective = "Looking for a 2025 internship in infrastructure"
+  objective = "Looking for a 2026 infrastructure internship"
 
 [params.cv]
 title = "Curriculum Vitae"
