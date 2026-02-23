@@ -1,13 +1,7 @@
 ---
 title: "Archives"
 layout: "archives"
-description: "Liste chronologique des notes projet et articles techniques."
+description: "Chaque article et compte-rendu trié par année."
 ---
 
-Cette page centralise toutes les publications.
-
-Tu peux l'utiliser pour voir rapidement:
-
-- ce que je construis en ce moment
-- l'évolution de mes choix techniques dans le temps
-- la régularité de mes livraisons
+Je garde ici une trace exhaustive de mes journaux de construction et de mes articles techniques. C’est le meilleur moyen de suivre l’évolution de mes projets.

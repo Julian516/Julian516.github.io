@@ -1,13 +1,7 @@
 ---
 title: "Archive"
 layout: "archives"
-description: "Chronological list of project notes and technical posts."
+description: "Every article and build log sorted by year."
 ---
 
-This page groups all published updates in one place.
-
-Use it if you want to quickly see:
-
-- what I built recently
-- how my tooling choices evolve over time
-- how often I ship meaningful updates
+I keep an exhaustive changelog of my writing and project updates here. It's the best way to see what I've been shipping lately.

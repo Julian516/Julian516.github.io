@@ -41,22 +41,20 @@
       {{ end }}
     </div>
 
-    {{ if $cvExists }}
-      <div class="flex flex-wrap gap-3">
-        <a
-          href="{{ $cvPath }}"
-          class="bg-primary text-primary-foreground inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold"
-          download>
-          Download CV
-        </a>
-        <a
-          href="{{ $cvPath }}"
-          class="text-primary border border-border inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold"
-          target="_blank"
-          rel="noopener noreferrer">
-          Open in new tab
-        </a>
-      </div>
-    {{ end }}
+    <div class="flex flex-wrap gap-3">
+      <a
+        href="{{ $cvPath }}"
+        class="bg-primary text-primary-foreground inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold"
+        download>
+        Download CV
+      </a>
+      <a
+        href="{{ $cvPath }}"
+        class="text-primary border border-border inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold"
+        target="_blank"
+        rel="noopener noreferrer">
+        Open in new tab
+      </a>
+    </div>
   </div>
 {{ end }}
