@@ -2,14 +2,15 @@ baseURL = "https://julian516.github.io/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
-title = "Julian's Portfolio"
+title = "Julian Barone — Portfolio"
 theme = "hugo-narrow"
 
 # recommandé par narrow
 enableRobotsTXT = true
 
-hasCJKLanguage = true
+hasCJKLanguage = false
 enableEmoji = true
+disableKinds = ["taxonomy", "term"]
 
 [permalinks]
 posts = "/posts/:slug/"
@@ -29,41 +30,81 @@ languageCode = "fr-FR"
 languageName = "Français"
 weight = 2
 
+[languages.en.params.author]
+name = "Julian Barone"
+title = "Engineering student building reliable tools"
+description = "I design and ship infrastructure automation, observability tooling, and fast product prototypes while documenting the process so teams can reuse my work."
+avatar = "/images/avatar.svg"
+
+  [[languages.en.params.author.social]]
+  name = "GitHub"
+  url = "https://github.com/Julian516"
+  icon = "github"
+
+  [[languages.en.params.author.social]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/julianBarone"
+  icon = "linkedin"
+
+  [[languages.en.params.author.social]]
+  name = "Email"
+  url = "mailto:contact@jbarone.dev"
+  icon = "email"
+
+[languages.fr.params.author]
+name = "Julian Barone"
+title = "Étudiant ingénieur — outils fiables"
+description = "Je conçois de l'automatisation d'infrastructure, des outils d'observabilité et des prototypes produits rapides tout en documentant chaque étape pour faciliter l'adoption."
+avatar = "/images/avatar.svg"
+
+  [[languages.fr.params.author.social]]
+  name = "GitHub"
+  url = "https://github.com/Julian516"
+  icon = "github"
+
+  [[languages.fr.params.author.social]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/julianBarone"
+  icon = "linkedin"
+
+  [[languages.fr.params.author.social]]
+  name = "Email"
+  url = "mailto:contact@jbarone.dev"
+  icon = "email"
+
 [taxonomies]
-category = "categories"
-tag = "tags"
 
 [[menus.main]]
-name = "nav.posts"
-pageRef = "posts"
+name = "Home"
+pageRef = "/"
+weight = 10
+
+  [menus.main.params]
+  icon = "home"
+
+[[menus.main]]
+name = "Posts"
+pageRef = "/posts"
 weight = 20
 
   [menus.main.params]
   icon = "posts"
 
 [[menus.main]]
-name = "nav.categories"
-pageRef = "/categories"
+name = "Archives"
+pageRef = "/archives"
 weight = 30
 
   [menus.main.params]
-  icon = "categories"
+  icon = "archive"
 
 [[menus.main]]
-name = "nav.tags"
-pageRef = "/tags"
+name = "CV"
+url = "/cv.pdf"
 weight = 40
 
   [menus.main.params]
-  icon = "tags"
-
-[[menus.main]]
-name = "nav.archives"
-pageRef = "/archives"
-weight = 50
-
-  [menus.main.params]
-  icon = "archive"
+  icon = "about"
 
 [[menus.footer]]
 name = "About"
@@ -75,7 +116,7 @@ weight = 10
 
 [[menus.footer]]
 name = "Contact"
-url = "https://google.com"
+url = "mailto:contact@jbarone.dev"
 weight = 20
 
   [menus.footer.params]
@@ -122,11 +163,11 @@ weight = 40
   icon = "email"
 
 [params]
-description = "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-keywords = [ "Hugo", "Blog", "Theme", "Technology", "Programming" ]
-defaultAuthor = "Hugo Narrow"
+description = "Portfolio and project log for Julian Barone: engineering student focusing on infrastructure automation, full-stack experiments, and reliable tooling."
+keywords = [ "Julian Barone", "Portfolio", "Full-stack engineer", "Projects", "Blog" ]
+defaultAuthor = "Julian Barone"
 language = "en-US"
-shortName = "Hugo Narrow"
+shortName = "Julian Barone"
 images = [ "/images/og-default.avif" ]
 showThemeSwitch = true
 showDarkModeSwitch = true
@@ -143,31 +184,20 @@ colorScheme = "default"
   [params.favicon]
   svg = "/favicon.svg"
 
-  [params.author]
-  name = "Julian Barone"
-  title = "Private website, Portfolio and more"
-  description = "Posting some stuff about my studies, private project and more"
-  avatar = "/images/avatar.svg"
+  [params.hero]
+  tagline = "Engineering student · Infra & product builder"
+  summary = "Focused on infrastructure automation, observability, and polished user experiences."
+  primaryCta = { label = "View my projects", url = "#projects" }
+  secondaryCta = { label = "Read the journal", url = "/posts/" }
+  currentFocus = "Rewriting my personal observability stack in Go"
+  #location = "Lyon, France"
+  education = "Engineering student (M1)"
+  objective = "Looking for a 2025 internship in infrastructure"
 
-    [[params.author.social]]
-    name = "GitHub"
-    url = "https://github.com/username"
-    icon = "github"
-
-    [[params.author.social]]
-    name = "LinkedIn"
-    url = "https://linkedin.com/in/julianBarone"
-    icon = "linkedin"
-
-#    [[params.author.social]]
-#    name = "Twitter"
-#    url = "https://twitter.com/username"
-#    icon = "twitter"
-
-    [[params.author.social]]
-    name = "Email"
-    url = "mailto:hello@example.com"
-    icon = "email"
+[params.cv]
+title = "Curriculum Vitae"
+description = "Current resume with experience and education details."
+file = "/cv.pdf"
 
 [params.themes.default]
 name = "Default"
@@ -213,24 +243,40 @@ order = 10
 name = "Twitter"
 order = 11
 
-[params.home]
-recentPostsCount = 5
 
-[params.home_custom]
-enabled = true
-files = [ "custom_1.html" ]
+  [params.home]
+  recentPostsCount = 5
+  
+    [[params.home.highlights]]
+    tagline = "Reliability"
+    title = "Infrastructure & automation"
+    description = "Go, Docker, GitHub Actions, and Terraform to ship reproducible environments for prototypes and student projects."
 
-[params.post]
-showRelated = true
-relatedPostsCount = 3
+    [[params.home.highlights]]
+    tagline = "Visibility"
+    title = "Observability stacks"
+    description = "ClickHouse, Grafana, and OpenTelemetry instrumentation that keeps side projects honest."
 
-  [params.post.license]
-  show = true
-  author = "Julian Barone"
-  name = "CC BY-NC-SA 4.0"
-  description = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
-  url = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-  displayName = "CC BY-NC-SA 4.0"
+    [[params.home.highlights]]
+    tagline = "Delivery"
+    title = "Product-minded execution"
+    description = "Fast feedback loops, small UX polish, and clear documentation so teams can adopt my work quickly."
+
+  [params.home_custom]
+  enabled = false
+  files = [ "custom_1.html" ]
+
+  [params.post]
+  showRelated = true
+  relatedPostsCount = 3
+
+    [params.post.license]
+    show = true
+    author = "Julian Barone"
+    name = "CC BY-NC-SA 4.0"
+    description = "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
+    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    displayName = "CC BY-NC-SA 4.0"
 
   [params.comments]
   enabled = false
@@ -396,8 +442,7 @@ style = "github"
 tabWidth = 2
 
 [outputs]
-#home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-home = [ "HTML", "JSON", "WebAppManifest" ]
+home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
 
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"

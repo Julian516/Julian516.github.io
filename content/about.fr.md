@@ -1,36 +1,39 @@
 ---
-title: "À Propos"
+title: "À propos"
 layout: "about"
-summary: "Découvrez le thème Hugo Narrow et sa pile technologique"
+summary: "Ingénieur full-stack qui expérimente avec Go, Rust et des front-ends rapides."
 date: 2024-01-01T00:00:00+08:00
 links:
-  - name: "Documentation Hugo"
-    url: "https://gohugo.io/"
-    icon: "https://gohugo.io/favicon.ico"
-    description: "Le générateur de sites statiques le plus rapide au monde"
-  
-  - name: "Tailwind CSS"
-    url: "https://tailwindcss.com/"
-    icon: "https://tailwindcss.com/favicon.ico"
-    description: "Un framework CSS utilitaire-first"
-  
   - name: "GitHub"
-    url: "https://github.com/"
+    url: "https://github.com/Julian516"
     icon: "https://github.com/fluidicon.png"
-    description: "La plus grande plateforme d'hébergement de code au monde"
+    description: "Code, projets expérimentaux et contributions open-source."
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/julianBarone"
+    description: "Expériences professionnelles et coordonnées."
+  - name: "Email"
+    url: "mailto:contact@jbarone.dev"
+    description: "Écrivez-moi pour vos collaborations ou missions freelance."
 ---
 
-## À Propos
+## Salut, moi c’est Julian
 
-Hugo Narrow est un thème Hugo moderne, épuré et minimaliste construit avec Tailwind CSS 4.0. Il est conçu comme un thème de blog/portfolio avec des options de personnalisation étendues incluant plusieurs schémas de couleurs, la prise en charge du mode sombre et un design responsive.
+Je suis un étudiant ingénieur français focalisé sur l’automatisation d’infrastructure, l’observabilité et les petits détails qui rendent un produit numérique agréable. J’aime piloter un projet de bout en bout : maquette UX, backend, CI, monitoring.
 
-## Pile Technologique
+Ces dernières années j’ai alterné missions freelance, projets personnels et contributions communautaires. Résultat : je sais livrer vite sans sacrifier la fiabilité.
 
-- Hugo Extended
-- Tailwind CSS 4.0
-- @tailwindcss/typography
-- Glightbox
-- fjGallery
-- Macy.js
-- gumshoe
-- ...
+## En ce moment
+
+- Une stack d’observabilité auto-hébergée en Go pensée pour les home-labs.
+- Des dashboards légers pour suivre les projets étudiants, avec Supabase et Remix.
+- Des starters Hugo/Tailwind pour lancer des landing pages soignées en une après-midi.
+
+## Outils favoris
+
+- Langages & frameworks : Go, Rust, TypeScript, Hugo, Remix.
+- Infrastructure : Docker, Podman, Ansible, Fly.io, Vercel, GitHub Actions.
+- Monitoring : OpenTelemetry, Grafana, ClickHouse, Prometheus, InfluxDB.
+
+## Hors clavier
+
+Je mentor des étudiants débutant en backend, j’écris des journaux de build pour chaque projet (réussi ou non) et je joue beaucoup trop aux échecs quand je devrais dormir.

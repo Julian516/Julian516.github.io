@@ -1,0 +1,60 @@
+{{ define "main" }}
+  {{ $cv := site.Params.cv }}
+  {{ $cvPath := $cv.file | default "/cv.pdf" }}
+  {{ $cvExists := fileExists (printf "static%s" $cvPath) }}
+
+  <div class="mx-auto max-w-3xl space-y-8">
+    <header class="space-y-2">
+      <p class="text-sm uppercase tracking-[0.3em] text-primary">Resume</p>
+      <h1 class="text-foreground text-3xl font-bold">
+        {{ .Title }}
+      </h1>
+      {{ with $cv.description }}
+        <p class="text-muted-foreground text-sm">
+          {{ . }}
+        </p>
+      {{ end }}
+      {{ with .Content }}
+        <div class="prose max-w-none">
+          {{ . }}
+        </div>
+      {{ end }}
+    </header>
+
+    <div class="border-border rounded-2xl border">
+      {{ if $cvExists }}
+        <object
+          data="{{ $cvPath }}"
+          type="application/pdf"
+          class="hidden h-[750px] w-full md:block">
+          <p class="p-4 text-sm text-muted-foreground">
+            PDF preview unavailable in this browser. Use the download button below.
+          </p>
+        </object>
+        <p class="text-muted-foreground p-4 text-sm md:hidden">
+          PDF preview available on larger screens. Use the buttons below to open or download.
+        </p>
+      {{ else }}
+        <div class="p-6 text-sm text-muted-foreground">
+          Upload your CV to <code>{{ $cvPath }}</code> (under <code>static/</code>) to display it here.
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="flex flex-wrap gap-3">
+      <a
+        href="{{ $cvPath }}"
+        class="bg-primary text-primary-foreground inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold"
+        download>
+        Download CV
+      </a>
+      <a
+        href="{{ $cvPath }}"
+        class="text-primary border border-border inline-flex items-center rounded-lg px-4 py-2 text-sm font-semibold"
+        target="_blank"
+        rel="noopener noreferrer">
+        Open in new tab
+      </a>
+    </div>
+  </div>
+{{ end }}

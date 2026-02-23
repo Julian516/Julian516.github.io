@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on </title>
+    <link>//localhost:1313/about/</link>
+    <description>Recent content in Abouts on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 15 May 2025 15:05:45 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whoami</title>
+      <link>//localhost:1313/about/whoami/</link>
+      <pubDate>Thu, 15 May 2025 15:05:45 +0800</pubDate>
+      <guid>//localhost:1313/about/whoami/</guid>
+      <description>&lt;h1 id=&#34;-julian-barone&#34;&gt;👨‍💻 Julian Barone&lt;/h1&gt;&#xA;&lt;p&gt;Computer Science Engineering Student | Passionate about AI, Algorithmic Trading &amp;amp; Cybersecurity&lt;br&gt;&#xA;[📍 Currently in Taipei | 🌐 Trilingual: FR / EN / ZH]&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-career-objective&#34;&gt;🎯 Career Objective&lt;/h2&gt;&#xA;&lt;p&gt;Seeking a position in quantitative research or cybersecurity, combining mathematical modeling with scalable system implementation.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-key-skills&#34;&gt;🧠 Key Skills&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: Python, C++, Bash, Java, C&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AI / Data&lt;/strong&gt;: Numpy, Pandas, Scikit-learn, PyTorch&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;DevOps&lt;/strong&gt;: Docker, Git, CI/CD (GitHub Actions)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cybersecurity&lt;/strong&gt;: Linux, Networking, Cryptography, Kali&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tools&lt;/strong&gt;: VS Code, Obsidian, Notion, Figma&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Methodologies&lt;/strong&gt;: Agile, Design Thinking, Sprint Design&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-education&#34;&gt;🎓 Education&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Engineering School – Computer Science&lt;/strong&gt; — Ecole Superieure d&amp;rsquo;Informatique Electronique Automate (ESIEA) — 2024 - 2027&lt;br&gt;&#xA;&lt;em&gt;Major: AI, Cybersecurity&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
