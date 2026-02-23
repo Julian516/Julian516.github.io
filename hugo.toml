@@ -32,8 +32,8 @@ weight = 2
 
 [languages.en.params.author]
 name = "Julian Barone"
-title = "Engineering student building reliable tools"
-description = "I design and ship infrastructure automation, observability tooling, and fast product prototypes while documenting the process so teams can reuse my work."
+title = "Engineering student building stuff"
+description = "Homelab, infra, cyber, automation, monitoring, some ML. I test things, break things, fix them, then write it down."
 avatar = "/images/avatar.svg"
 
   [[languages.en.params.author.social]]
@@ -53,8 +53,8 @@ avatar = "/images/avatar.svg"
 
 [languages.fr.params.author]
 name = "Julian Barone"
-title = "Étudiant ingénieur — outils fiables"
-description = "Je conçois de l'automatisation d'infrastructure, des outils d'observabilité et des prototypes produits rapides tout en documentant chaque étape pour faciliter l'adoption."
+title = "Étudiant ingénieur qui construit des trucs"
+description = "Homelab, infra, cyber, automatisation, monitoring, un peu de ML. Je teste des trucs, je casse, je corrige, puis je documente."
 avatar = "/images/avatar.svg"
 
   [[languages.fr.params.author.social]]
